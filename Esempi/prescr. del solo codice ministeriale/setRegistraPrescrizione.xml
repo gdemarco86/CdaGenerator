@@ -1,0 +1,172 @@
+
+<!--
+ <DescrizioneCaso>Si verifica il comportamento corretto del sistema in caso di EROGAZIONE prescrizione farmaceutica del solo codice ministeriale</DescrizioneCaso>
+-->
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               <realmCode code="IT"/>
+               <typeId extension="POCD_MT000040" root="2.16.840.1.113883.1.3"/>
+               <templateId extension="ITPRF_PRESC_FARMA-001" root="2.16.840.1.113883.2.9.10.2.1"/>
+               <id assigningAuthorityName="MEF" extension="" root="2.16.840.1.113883.2.9.4.3.8"/>
+               <code code="29305-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" displayName="PRESCRIZIONE FARMACEUTICA">
+                  <translation code="3400" codeSystem="2.16.840.1.113883.2.9.6.1.25" codeSystemName="ITCDADOC_TYPECODE" codeSystemVersion="1" displayName="Prescrizione">
+                     <qualifier>
+                        <value code="3400-1" codeSystem="2.16.840.1.113883.2.9.6.1.25" codeSystemName="ITCDADOC_TYPECODE" codeSystemVersion="1" displayName="PRESCRIZIONE FARMACEUTICA"/>
+                     </qualifier>
+                  </translation>
+                  <translation code="SSN" codeSystem="2.16.840.1.113883.2.9.6.1.45" codeSystemName="ITCDADOC_TYPECODE" displayName="RICETTA SSN">
+                     <qualifier>
+                        <value code="IT" codeSystem="2.16.840.1.113883.2.9.6.1.47" codeSystemName="Tipo ricetta"/>
+                     </qualifier>
+                  </translation>
+               </code>
+               <effectiveTime value=""/>
+               <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
+               <languageCode code="it-IT"/>
+               <setId assigningAuthorityName="MEF" extension="" root="2.16.840.1.113883.2.9.2.4.3.20"/>
+               <versionNumber value="1"/>
+               <recordTarget>
+                  <patientRole>
+                     <id assigningAuthorityName="MEF" extension="CHRMRA35C18A662Z" root="2.16.840.1.113883.2.9.4.3.2"/>
+                     <id root="2.16.840.1.113883.2.9.4.1.20" extension="1234567890" assigningAuthorityName="Ministero della Salute"/>
+                     <addr>
+                        <city>RUTIGLIANO</city>
+                        <streetAddressLine>VIA TURI,</streetAddressLine>
+                     </addr>
+                     <patient>
+                        <name>
+                           <given>MAURO</given>
+                           <family></family>
+                        </name>
+                        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" displayName="M"/>
+                        <birthTime value="19350318"/>
+                     </patient>
+                  </patientRole>
+               </recordTarget>
+               <author>
+                  <time value=""/>
+                  <assignedAuthor>
+                     <id assigningAuthorityName="MEF" extension="" root="2.16.840.1.113883.2.9.4.3.2"/>
+                     <id assigningAuthorityName="REGIONE PUGLIA" extension="146628" root="2.16.840.1.113883.2.9.2.160.4.2"/>
+                     <assignedPerson>
+                        <name>
+                           <given>MARIA ROSARIA</given>
+                           <family></family>
+                        </name>
+                     </assignedPerson>
+                  </assignedAuthor>
+               </author>
+               <custodian>
+                  <assignedCustodian>
+                     <representedCustodianOrganization>
+                        <id extension="160114" root="2.16.840.1.113883.2.9.2.160.4.2"/>
+                     </representedCustodianOrganization>
+                  </assignedCustodian>
+               </custodian>
+               <legalAuthenticator>
+                  <time value=""/>
+                  <signatureCode code="S"/>
+                  <assignedEntity>
+                     <id assigningAuthorityName="MEF" extension="" root="2.16.840.1.113883.2.9.4.3.2"/>
+                     <assignedPerson>
+                        <name>
+                           <given>MARIA ROSARIA</given>
+                           <family></family>
+                        </name>
+                     </assignedPerson>
+                  </assignedEntity>
+               </legalAuthenticator>
+					<participant typeCode="IND">
+					  <associatedEntity classCode="GUAR">
+						 <scopingOrganization>
+							<id assigningAuthorityName="SSN-MIN SALUTE-500001" displayable="true" extension="160114" root="2.16.840.1.113883.2.9.4.1.1"/>
+						 </scopingOrganization>
+					  </associatedEntity>
+					</participant>
+			   <!--<participant typeCode="IND">
+					<associatedEntity classCode="CON">
+						<code code="EMPLOYER" codeSystem="1.3.5.1.4.1.19376.1.5.3.3" codeSystemName="IHERoleCode"/>
+						<scopingOrganization>
+							<name>$socNavigaz - societ di navigazione'</name>
+						</scopingOrganization>
+					</associatedEntity>
+			   </participant>-->
+			   <componentOf>
+                  <encompassingEncounter>
+                     <code code="AMB" codeSystem="2.16.840.1.113883.5.4"/>
+                     <effectiveTime nullFlavor="NI"/>
+                  </encompassingEncounter>
+               </componentOf>             
+               <component>
+                  <structuredBody>
+                     <component>
+                        <section ID="PRESCRIZIONI">
+                           <code code="29305-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" displayName="Medication Prescribed"/>
+                           <text>
+                              <list ID="RQO">
+                                 <caption>Richieste:</caption>
+								 <item>
+                                    <content ID="a1">MESALAZINA 500MG 20 UNITA  USO RETTALE</content>
+                                 </item>                                
+                              </list>
+                              <list ID="DIAG">
+                                 <caption>Problemi:</caption>
+                                 <item>
+                                    <content ID="b1"/>
+                                 </item>
+                              </list>
+                           </text>
+						    <entry>
+                              <substanceAdministration classCode="SBADM" moodCode="RQO">
+                                 <consumable>
+                                    <manufacturedProduct>
+                                       <manufacturedLabeledDrug>
+                                          <code code="034298051" codeSystem="2.16.840.1.113883.2.9.6.1.5" codeSystemName="AIC" displayName="AIC">
+                                             <originalText>
+                                                <reference value="a1"/>
+                                             </originalText>
+                                             <translation code="A07EC02" codeSystem="2.16.840.1.113883.2.9.6.1.12" codeSystemName="ATC" codeSystemVersion="2007"/>
+                                          </code>
+                                       </manufacturedLabeledDrug>
+                                    </manufacturedProduct>
+                                 </consumable>
+                                 <entryRelationship typeCode="COMP">
+                                    <supply classCode="SPLY" moodCode="RQO">
+                                       <independentInd value="false"/>
+                                       <quantity unit="1" value="1"/>
+                                    </supply>
+                                 </entryRelationship>
+								 <entryRelationship inversionInd="true" typeCode="SUBJ">
+									<observation classCode="OBS" moodCode="EVN">
+									   <code code="SUBST" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7 ActClass" displayName="Substitution"/>
+									   <value codeSystem="2.16.840.1.113883.5.1070" codeSystemName="HL7Substance Admin Substitution" xsi:type="CE"/>
+									   <entryRelationship typeCode="RSON">
+										  <observation classCode="OBS" moodCode="EVN">
+											 <code code="4" codeSystem="2.16.840.1.113883.2.9.6.1.52" displayName="OBIETTIVE DIFFICOLTA' DI ASSUNZIONE"/>
+										  </observation>
+										</entryRelationship>
+									</observation>
+								</entryRelationship>
+                              </substanceAdministration>
+                           </entry>	
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <code code="48767-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" displayName="Annotation Comment"/>
+                           <title>Annotazioni</title>
+                           <text>
+                              <content ID="dispReg">REG</content>
+                           </text>
+                           <entry>
+                              <act moodCode="EVN" classCode="ACT">
+                                 <code code="DispReg" codeSystem="2.16.840.1.113883.2.9.5.1.4" codeSystemName="Estensione Vocabolario ActCode" displayName="Disposizioni regionali"/>
+                                 <text>
+                                    <reference value="#dispReg"/>
+                                 </text>
+                              </act>
+                           </entry>
+                        </section>
+                     </component>
+                  </structuredBody>
+               </component>
+            </ClinicalDocument>

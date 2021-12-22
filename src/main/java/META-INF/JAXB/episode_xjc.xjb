@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.3.2 
+Vedere <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2021.11.20 alle 01:00:17 PM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="urn:hl7-org:v3">
+    <schemaBindings map="false">
+      <package name="it.gpj.cdagenerator.cda"/>
+    </schemaBindings>
+    <bindings scd="~tns:POCD_MT000040.ClinicalDocument">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ClinicalDocument"/>
+    </bindings>
+    <bindings scd="~tns:ANY">
+      <class ref="it.gpj.cdagenerator.cda.ANY"/>
+    </bindings>
+    <bindings scd="~tns:BL">
+      <class ref="it.gpj.cdagenerator.cda.BL"/>
+    </bindings>
+    <bindings scd="~tns:ANYNonNull">
+      <class ref="it.gpj.cdagenerator.cda.ANYNonNull"/>
+    </bindings>
+    <bindings scd="~tns:BN">
+      <class ref="it.gpj.cdagenerator.cda.BN"/>
+    </bindings>
+    <bindings scd="~tns:BIN">
+      <class ref="it.gpj.cdagenerator.cda.BIN"/>
+    </bindings>
+    <bindings scd="~tns:ED">
+      <class ref="it.gpj.cdagenerator.cda.ED"/>
+    </bindings>
+    <bindings scd="~tns:thumbnail">
+      <class ref="it.gpj.cdagenerator.cda.Thumbnail"/>
+    </bindings>
+    <bindings scd="~tns:ST">
+      <class ref="it.gpj.cdagenerator.cda.ST"/>
+    </bindings>
+    <bindings scd="~tns:CD">
+      <class ref="it.gpj.cdagenerator.cda.CD"/>
+    </bindings>
+    <bindings scd="~tns:CE">
+      <class ref="it.gpj.cdagenerator.cda.CE"/>
+    </bindings>
+    <bindings scd="~tns:CV">
+      <class ref="it.gpj.cdagenerator.cda.CV"/>
+    </bindings>
+    <bindings scd="~tns:CS">
+      <class ref="it.gpj.cdagenerator.cda.CS"/>
+    </bindings>
+    <bindings scd="~tns:CO">
+      <class ref="it.gpj.cdagenerator.cda.CO"/>
+    </bindings>
+    <bindings scd="~tns:CR">
+      <class ref="it.gpj.cdagenerator.cda.CR"/>
+    </bindings>
+    <bindings scd="~tns:SC">
+      <class ref="it.gpj.cdagenerator.cda.SC"/>
+    </bindings>
+    <bindings scd="~tns:II">
+      <class ref="it.gpj.cdagenerator.cda.II"/>
+    </bindings>
+    <bindings scd="~tns:URL">
+      <class ref="it.gpj.cdagenerator.cda.URL"/>
+    </bindings>
+    <bindings scd="~tns:TS">
+      <class ref="it.gpj.cdagenerator.cda.TS"/>
+    </bindings>
+    <bindings scd="~tns:TEL">
+      <class ref="it.gpj.cdagenerator.cda.TEL"/>
+    </bindings>
+    <bindings scd="~tns:ADXP">
+      <class ref="it.gpj.cdagenerator.cda.ADXP"/>
+    </bindings>
+    <bindings scd="~tns:adxp.delimiter">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDelimiter"/>
+    </bindings>
+    <bindings scd="~tns:adxp.country">
+      <class ref="it.gpj.cdagenerator.cda.AdxpCountry"/>
+    </bindings>
+    <bindings scd="~tns:adxp.state">
+      <class ref="it.gpj.cdagenerator.cda.AdxpState"/>
+    </bindings>
+    <bindings scd="~tns:adxp.county">
+      <class ref="it.gpj.cdagenerator.cda.AdxpCounty"/>
+    </bindings>
+    <bindings scd="~tns:adxp.city">
+      <class ref="it.gpj.cdagenerator.cda.AdxpCity"/>
+    </bindings>
+    <bindings scd="~tns:adxp.postalCode">
+      <class ref="it.gpj.cdagenerator.cda.AdxpPostalCode"/>
+    </bindings>
+    <bindings scd="~tns:adxp.streetAddressLine">
+      <class ref="it.gpj.cdagenerator.cda.AdxpStreetAddressLine"/>
+    </bindings>
+    <bindings scd="~tns:adxp.houseNumber">
+      <class ref="it.gpj.cdagenerator.cda.AdxpHouseNumber"/>
+    </bindings>
+    <bindings scd="~tns:adxp.houseNumberNumeric">
+      <class ref="it.gpj.cdagenerator.cda.AdxpHouseNumberNumeric"/>
+    </bindings>
+    <bindings scd="~tns:adxp.direction">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDirection"/>
+    </bindings>
+    <bindings scd="~tns:adxp.streetName">
+      <class ref="it.gpj.cdagenerator.cda.AdxpStreetName"/>
+    </bindings>
+    <bindings scd="~tns:adxp.streetNameBase">
+      <class ref="it.gpj.cdagenerator.cda.AdxpStreetNameBase"/>
+    </bindings>
+    <bindings scd="~tns:adxp.streetNameType">
+      <class ref="it.gpj.cdagenerator.cda.AdxpStreetNameType"/>
+    </bindings>
+    <bindings scd="~tns:adxp.additionalLocator">
+      <class ref="it.gpj.cdagenerator.cda.AdxpAdditionalLocator"/>
+    </bindings>
+    <bindings scd="~tns:adxp.unitID">
+      <class ref="it.gpj.cdagenerator.cda.AdxpUnitID"/>
+    </bindings>
+    <bindings scd="~tns:adxp.unitType">
+      <class ref="it.gpj.cdagenerator.cda.AdxpUnitType"/>
+    </bindings>
+    <bindings scd="~tns:adxp.careOf">
+      <class ref="it.gpj.cdagenerator.cda.AdxpCareOf"/>
+    </bindings>
+    <bindings scd="~tns:adxp.censusTract">
+      <class ref="it.gpj.cdagenerator.cda.AdxpCensusTract"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryAddressLine">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryAddressLine"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryInstallationType">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryInstallationType"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryInstallationArea">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryInstallationArea"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryInstallationQualifier">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryInstallationQualifier"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryMode">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryMode"/>
+    </bindings>
+    <bindings scd="~tns:adxp.deliveryModeIdentifier">
+      <class ref="it.gpj.cdagenerator.cda.AdxpDeliveryModeIdentifier"/>
+    </bindings>
+    <bindings scd="~tns:adxp.buildingNumberSuffix">
+      <class ref="it.gpj.cdagenerator.cda.AdxpBuildingNumberSuffix"/>
+    </bindings>
+    <bindings scd="~tns:adxp.postBox">
+      <class ref="it.gpj.cdagenerator.cda.AdxpPostBox"/>
+    </bindings>
+    <bindings scd="~tns:adxp.precinct">
+      <class ref="it.gpj.cdagenerator.cda.AdxpPrecinct"/>
+    </bindings>
+    <bindings scd="~tns:AD">
+      <class ref="it.gpj.cdagenerator.cda.AD"/>
+    </bindings>
+    <bindings scd="~tns:ENXP">
+      <class ref="it.gpj.cdagenerator.cda.ENXP"/>
+    </bindings>
+    <bindings scd="~tns:en.delimiter">
+      <class ref="it.gpj.cdagenerator.cda.EnDelimiter"/>
+    </bindings>
+    <bindings scd="~tns:en.family">
+      <class ref="it.gpj.cdagenerator.cda.EnFamily"/>
+    </bindings>
+    <bindings scd="~tns:en.given">
+      <class ref="it.gpj.cdagenerator.cda.EnGiven"/>
+    </bindings>
+    <bindings scd="~tns:en.prefix">
+      <class ref="it.gpj.cdagenerator.cda.EnPrefix"/>
+    </bindings>
+    <bindings scd="~tns:en.suffix">
+      <class ref="it.gpj.cdagenerator.cda.EnSuffix"/>
+    </bindings>
+    <bindings scd="~tns:EN">
+      <class ref="it.gpj.cdagenerator.cda.EN"/>
+    </bindings>
+    <bindings scd="~tns:PN">
+      <class ref="it.gpj.cdagenerator.cda.PN"/>
+    </bindings>
+    <bindings scd="~tns:ON">
+      <class ref="it.gpj.cdagenerator.cda.ON"/>
+    </bindings>
+    <bindings scd="~tns:TN">
+      <class ref="it.gpj.cdagenerator.cda.TN"/>
+    </bindings>
+    <bindings scd="~tns:QTY">
+      <class ref="it.gpj.cdagenerator.cda.QTY"/>
+    </bindings>
+    <bindings scd="~tns:INT">
+      <class ref="it.gpj.cdagenerator.cda.INT"/>
+    </bindings>
+    <bindings scd="~tns:REAL">
+      <class ref="it.gpj.cdagenerator.cda.REAL"/>
+    </bindings>
+    <bindings scd="~tns:PQR">
+      <class ref="it.gpj.cdagenerator.cda.PQR"/>
+    </bindings>
+    <bindings scd="~tns:PQ">
+      <class ref="it.gpj.cdagenerator.cda.PQ"/>
+    </bindings>
+    <bindings scd="~tns:MO">
+      <class ref="it.gpj.cdagenerator.cda.MO"/>
+    </bindings>
+    <bindings scd="~tns:RTO">
+      <class ref="it.gpj.cdagenerator.cda.RTO"/>
+    </bindings>
+    <bindings scd="~tns:EIVL.event">
+      <class ref="it.gpj.cdagenerator.cda.EIVLEvent"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_TS">
+      <class ref="it.gpj.cdagenerator.cda.SXCMTS"/>
+    </bindings>
+    <bindings scd="~tns:IVL_TS">
+      <class ref="it.gpj.cdagenerator.cda.IVLTS"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_TS">
+      <class ref="it.gpj.cdagenerator.cda.IVXBTS"/>
+    </bindings>
+    <bindings scd="~tns:RTO_QTY_QTY">
+      <class ref="it.gpj.cdagenerator.cda.RTOQTYQTY"/>
+    </bindings>
+    <bindings scd="~tns:PIVL_TS">
+      <class ref="it.gpj.cdagenerator.cda.PIVLTS"/>
+    </bindings>
+    <bindings scd="~tns:EIVL_TS">
+      <class ref="it.gpj.cdagenerator.cda.EIVLTS"/>
+    </bindings>
+    <bindings scd="~tns:IVL_PQ">
+      <class ref="it.gpj.cdagenerator.cda.IVLPQ"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_PQ">
+      <class ref="it.gpj.cdagenerator.cda.SXCMPQ"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_PQ">
+      <class ref="it.gpj.cdagenerator.cda.IVXBPQ"/>
+    </bindings>
+    <bindings scd="~tns:PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.PPDTS"/>
+    </bindings>
+    <bindings scd="~tns:PPD_PQ">
+      <class ref="it.gpj.cdagenerator.cda.PPDPQ"/>
+    </bindings>
+    <bindings scd="~tns:PIVL_PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.PIVLPPDTS"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.SXCMPPDTS"/>
+    </bindings>
+    <bindings scd="~tns:IVL_PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.IVLPPDTS"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.IVXBPPDTS"/>
+    </bindings>
+    <bindings scd="~tns:EIVL_PPD_TS">
+      <class ref="it.gpj.cdagenerator.cda.EIVLPPDTS"/>
+    </bindings>
+    <bindings scd="~tns:IVL_PPD_PQ">
+      <class ref="it.gpj.cdagenerator.cda.IVLPPDPQ"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_PPD_PQ">
+      <class ref="it.gpj.cdagenerator.cda.SXCMPPDPQ"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_PPD_PQ">
+      <class ref="it.gpj.cdagenerator.cda.IVXBPPDPQ"/>
+    </bindings>
+    <bindings scd="~tns:SXPR_TS">
+      <class ref="it.gpj.cdagenerator.cda.SXPRTS"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_CD">
+      <class ref="it.gpj.cdagenerator.cda.SXCMCD"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_MO">
+      <class ref="it.gpj.cdagenerator.cda.SXCMMO"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_INT">
+      <class ref="it.gpj.cdagenerator.cda.SXCMINT"/>
+    </bindings>
+    <bindings scd="~tns:SXCM_REAL">
+      <class ref="it.gpj.cdagenerator.cda.SXCMREAL"/>
+    </bindings>
+    <bindings scd="~tns:IVL_INT">
+      <class ref="it.gpj.cdagenerator.cda.IVLINT"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_INT">
+      <class ref="it.gpj.cdagenerator.cda.IVXBINT"/>
+    </bindings>
+    <bindings scd="~tns:IVL_REAL">
+      <class ref="it.gpj.cdagenerator.cda.IVLREAL"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_REAL">
+      <class ref="it.gpj.cdagenerator.cda.IVXBREAL"/>
+    </bindings>
+    <bindings scd="~tns:IVL_MO">
+      <class ref="it.gpj.cdagenerator.cda.IVLMO"/>
+    </bindings>
+    <bindings scd="~tns:IVXB_MO">
+      <class ref="it.gpj.cdagenerator.cda.IVXBMO"/>
+    </bindings>
+    <bindings scd="~tns:HXIT_PQ">
+      <class ref="it.gpj.cdagenerator.cda.HXITPQ"/>
+    </bindings>
+    <bindings scd="~tns:HXIT_CE">
+      <class ref="it.gpj.cdagenerator.cda.HXITCE"/>
+    </bindings>
+    <bindings scd="~tns:BXIT_CD">
+      <class ref="it.gpj.cdagenerator.cda.BXITCD"/>
+    </bindings>
+    <bindings scd="~tns:BXIT_IVL_PQ">
+      <class ref="it.gpj.cdagenerator.cda.BXITIVLPQ"/>
+    </bindings>
+    <bindings scd="~tns:SLIST_PQ">
+      <class ref="it.gpj.cdagenerator.cda.SLISTPQ"/>
+    </bindings>
+    <bindings scd="~tns:SLIST_TS">
+      <class ref="it.gpj.cdagenerator.cda.SLISTTS"/>
+    </bindings>
+    <bindings scd="~tns:GLIST_TS">
+      <class ref="it.gpj.cdagenerator.cda.GLISTTS"/>
+    </bindings>
+    <bindings scd="~tns:GLIST_PQ">
+      <class ref="it.gpj.cdagenerator.cda.GLISTPQ"/>
+    </bindings>
+    <bindings scd="~tns:RTO_PQ_PQ">
+      <class ref="it.gpj.cdagenerator.cda.RTOPQPQ"/>
+    </bindings>
+    <bindings scd="~tns:RTO_MO_PQ">
+      <class ref="it.gpj.cdagenerator.cda.RTOMOPQ"/>
+    </bindings>
+    <bindings scd="~tns:UVP_TS">
+      <class ref="it.gpj.cdagenerator.cda.UVPTS"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Text">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocText"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Title">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTitle"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Br">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocBr"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Caption">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocCaption"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Col">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocCol"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Colgroup">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocColgroup"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Content">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocContent"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.TitleContent">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTitleContent"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Footnote">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocFootnote"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.TitleFootnote">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTitleFootnote"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.FootnoteRef">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocFootnoteRef"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Item">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocItem"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.LinkHtml">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocLinkHtml"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.List">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocList"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Paragraph">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocParagraph"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.RenderMultiMedia">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocRenderMultiMedia"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Sub">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocSub"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Sup">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocSup"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Table">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTable"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Tbody">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTbody"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Td">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTd"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Tfoot">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTfoot"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Th">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTh"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Thead">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocThead"/>
+    </bindings>
+    <bindings scd="~tns:StrucDoc.Tr">
+      <class ref="it.gpj.cdagenerator.cda.StrucDocTr"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.InfrastructureRoot.typeId">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040InfrastructureRootTypeId"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Act">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Act"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.AssignedAuthor">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040AssignedAuthor"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.AssignedCustodian">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040AssignedCustodian"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.AssignedEntity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040AssignedEntity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.AssociatedEntity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040AssociatedEntity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Authenticator">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Authenticator"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Author">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Author"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.AuthoringDevice">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040AuthoringDevice"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Authorization">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Authorization"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Birthplace">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Birthplace"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Component1">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Component1"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Component2">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Component2"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Component3">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Component3"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Component4">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Component4"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Component5">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Component5"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Consent">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Consent"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Consumable">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Consumable"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Criterion">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Criterion"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Custodian">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Custodian"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.CustodianOrganization">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040CustodianOrganization"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.DataEnterer">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040DataEnterer"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Device">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Device"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.DocumentationOf">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040DocumentationOf"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.EncompassingEncounter">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040EncompassingEncounter"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Encounter">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Encounter"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.EncounterParticipant">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040EncounterParticipant"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Entity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Entity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Entry">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Entry"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.EntryRelationship">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040EntryRelationship"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ExternalAct">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ExternalAct"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ExternalDocument">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ExternalDocument"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ExternalObservation">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ExternalObservation"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ExternalProcedure">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ExternalProcedure"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Guardian">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Guardian"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.HealthCareFacility">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040HealthCareFacility"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Informant12">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Informant12"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.InformationRecipient">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040InformationRecipient"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.InFulfillmentOf">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040InFulfillmentOf"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.IntendedRecipient">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040IntendedRecipient"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.LabeledDrug">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040LabeledDrug"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.LanguageCommunication">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040LanguageCommunication"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.LegalAuthenticator">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040LegalAuthenticator"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Location">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Location"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.MaintainedEntity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040MaintainedEntity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ManufacturedProduct">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ManufacturedProduct"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Material">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Material"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.NonXMLBody">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040NonXMLBody"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Observation">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Observation"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ObservationMedia">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ObservationMedia"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ObservationRange">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ObservationRange"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Order">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Order"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Organization">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Organization"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.OrganizationPartOf">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040OrganizationPartOf"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Organizer">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Organizer"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ParentDocument">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ParentDocument"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Participant1">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Participant1"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Participant2">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Participant2"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ParticipantRole">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ParticipantRole"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Patient">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Patient"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.PatientRole">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040PatientRole"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Performer1">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Performer1"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Performer2">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Performer2"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Person">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Person"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Place">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Place"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.PlayingEntity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040PlayingEntity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Precondition">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Precondition"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Procedure">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Procedure"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Product">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Product"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RecordTarget">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RecordTarget"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Reference">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Reference"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ReferenceRange">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ReferenceRange"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RegionOfInterest.value">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RegionOfInterestValue"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RegionOfInterest">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RegionOfInterest"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RelatedDocument">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RelatedDocument"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RelatedEntity">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RelatedEntity"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.RelatedSubject">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040RelatedSubject"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ResponsibleParty">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ResponsibleParty"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Section">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Section"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.ServiceEvent">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040ServiceEvent"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Specimen">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Specimen"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.SpecimenRole">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040SpecimenRole"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.StructuredBody">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040StructuredBody"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Subject">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Subject"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.SubjectPerson">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040SubjectPerson"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.SubstanceAdministration">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040SubstanceAdministration"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.Supply">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040Supply"/>
+    </bindings>
+    <bindings scd="~tns:POCD_MT000040.FinancialTransaction_ext">
+      <class ref="it.gpj.cdagenerator.cda.POCDMT000040FinancialTransactionExt"/>
+    </bindings>
+    <bindings scd="~tns:AdditionalLocator">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.AdditionalLocator"/>
+    </bindings>
+    <bindings scd="~tns:DeliveryAddressLine">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.DeliveryAddressLine"/>
+    </bindings>
+    <bindings scd="~tns:BuildingNumber">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.BuildingNumber"/>
+    </bindings>
+    <bindings scd="~tns:StreetName">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.StreetName"/>
+    </bindings>
+    <bindings scd="~tns:CalendarCycleOneLetter">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.CalendarCycleOneLetter"/>
+    </bindings>
+    <bindings scd="~tns:CompressionAlgorithm">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.CompressionAlgorithm"/>
+    </bindings>
+    <bindings scd="~tns:Currency">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.Currency"/>
+    </bindings>
+    <bindings scd="~tns:OrganizationNamePartQualifier">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.OrganizationNamePartQualifier"/>
+    </bindings>
+    <bindings scd="~tns:PersonNamePartAffixTypes">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.PersonNamePartAffixTypes"/>
+    </bindings>
+    <bindings scd="~tns:PersonNamePartChangeQualifier">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.PersonNamePartChangeQualifier"/>
+    </bindings>
+    <bindings scd="~tns:PersonNamePartMiscQualifier">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.PersonNamePartMiscQualifier"/>
+    </bindings>
+    <bindings scd="~tns:x_OrganizationNamePartType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XOrganizationNamePartType"/>
+    </bindings>
+    <bindings scd="~tns:x_PersonNamePartType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XPersonNamePartType"/>
+    </bindings>
+    <bindings scd="~tns:EntityNameSearchUse">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityNameSearchUse"/>
+    </bindings>
+    <bindings scd="~tns:NamePseudonymUse">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.NamePseudonymUse"/>
+    </bindings>
+    <bindings scd="~tns:IntegrityCheckAlgorithm">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.IntegrityCheckAlgorithm"/>
+    </bindings>
+    <bindings scd="~tns:ApplicationMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ApplicationMediaType"/>
+    </bindings>
+    <bindings scd="~tns:AudioMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.AudioMediaType"/>
+    </bindings>
+    <bindings scd="~tns:ImageMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ImageMediaType"/>
+    </bindings>
+    <bindings scd="~tns:ModelMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ModelMediaType"/>
+    </bindings>
+    <bindings scd="~tns:MultipartMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.MultipartMediaType"/>
+    </bindings>
+    <bindings scd="~tns:TextMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.TextMediaType"/>
+    </bindings>
+    <bindings scd="~tns:VideoMediaType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.VideoMediaType"/>
+    </bindings>
+    <bindings scd="~tns:NameRepresentationUse">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.NameRepresentationUse"/>
+    </bindings>
+    <bindings scd="~tns:ProbabilityDistributionType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ProbabilityDistributionType"/>
+    </bindings>
+    <bindings scd="~tns:SetOperator">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.SetOperator"/>
+    </bindings>
+    <bindings scd="~tns:HomeAddressUse">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.HomeAddressUse"/>
+    </bindings>
+    <bindings scd="~tns:WorkPlaceAddressUse">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.WorkPlaceAddressUse"/>
+    </bindings>
+    <bindings scd="~tns:TimingEvent">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.TimingEvent"/>
+    </bindings>
+    <bindings scd="~tns:URLScheme">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.URLScheme"/>
+    </bindings>
+    <bindings scd="~tns:ActClassFinancialContract">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassFinancialContract"/>
+    </bindings>
+    <bindings scd="~tns:ActClassControlAct">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassControlAct"/>
+    </bindings>
+    <bindings scd="~tns:ActClassPublicHealthCase">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassPublicHealthCase"/>
+    </bindings>
+    <bindings scd="~tns:ActClassObservationSeries">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassObservationSeries"/>
+    </bindings>
+    <bindings scd="~tns:ActClassROI">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassROI"/>
+    </bindings>
+    <bindings scd="~tns:ActClassSupply">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassSupply"/>
+    </bindings>
+    <bindings scd="~tns:ActClinicalDocument">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClinicalDocument"/>
+    </bindings>
+    <bindings scd="~tns:ActClassEntry">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassEntry"/>
+    </bindings>
+    <bindings scd="~tns:ActClassExtract">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassExtract"/>
+    </bindings>
+    <bindings scd="~tns:ActClassOrganizer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActClassOrganizer"/>
+    </bindings>
+    <bindings scd="~tns:x_ActClassDocumentEntryAct">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActClassDocumentEntryAct"/>
+    </bindings>
+    <bindings scd="~tns:x_ActClassDocumentEntryOrganizer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActClassDocumentEntryOrganizer"/>
+    </bindings>
+    <bindings scd="~tns:ActMoodPredicate">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActMoodPredicate"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodDefEvn">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodDefEvn"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodDefEvnRqoPrmsPrp">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodDefEvnRqoPrmsPrp"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodDocumentObservation">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodDocumentObservation"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodEvnOrdPrmsPrp">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodEvnOrdPrmsPrp"/>
+    </bindings>
+    <bindings scd="~tns:ActMoodIntent">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActMoodIntent"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodOrdPrms">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodOrdPrms"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodOrdPrmsEvn">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodOrdPrmsEvn"/>
+    </bindings>
+    <bindings scd="~tns:x_ActMoodRqoPrpAptArq">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActMoodRqoPrpAptArq"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentActMood">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentActMood"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentEncounterMood">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentEncounterMood"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentProcedureMood">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentProcedureMood"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentSubstanceMood">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentSubstanceMood"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipReason">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipReason"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipHasComponent">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipHasComponent"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipObjective">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipObjective"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipCostTracking">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipCostTracking"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipPosting">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipPosting"/>
+    </bindings>
+    <bindings scd="~tns:TemporallyPertains">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.TemporallyPertains"/>
+    </bindings>
+    <bindings scd="~tns:hasSupport">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.HasSupport"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipExcerpt">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipExcerpt"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipFulfills">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipFulfills"/>
+    </bindings>
+    <bindings scd="~tns:ActRelationshipReplacement">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ActRelationshipReplacement"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipDocument">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipDocument"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipEntry">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipEntry"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipEntryRelationship">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipEntryRelationship"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipExternalReference">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipExternalReference"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipPatientTransport">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipPatientTransport"/>
+    </bindings>
+    <bindings scd="~tns:x_ActRelationshipPertinentInfo">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XActRelationshipPertinentInfo"/>
+    </bindings>
+    <bindings scd="~tns:CommunicationFunctionType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.CommunicationFunctionType"/>
+    </bindings>
+    <bindings scd="~tns:ContextControlAdditive">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ContextControlAdditive"/>
+    </bindings>
+    <bindings scd="~tns:ContextControlNonPropagating">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ContextControlNonPropagating"/>
+    </bindings>
+    <bindings scd="~tns:ContextControlOverriding">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ContextControlOverriding"/>
+    </bindings>
+    <bindings scd="~tns:ContextControlPropagating">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ContextControlPropagating"/>
+    </bindings>
+    <bindings scd="~tns:EntityClassNonPersonLivingSubject">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityClassNonPersonLivingSubject"/>
+    </bindings>
+    <bindings scd="~tns:EntityClassContainer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityClassContainer"/>
+    </bindings>
+    <bindings scd="~tns:EntityClassDevice">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityClassDevice"/>
+    </bindings>
+    <bindings scd="~tns:EntityClassPlace">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityClassPlace"/>
+    </bindings>
+    <bindings scd="~tns:State">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.State"/>
+    </bindings>
+    <bindings scd="~tns:EntityDeterminerDetermined">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.EntityDeterminerDetermined"/>
+    </bindings>
+    <bindings scd="~tns:x_DeterminerInstanceKind">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDeterminerInstanceKind"/>
+    </bindings>
+    <bindings scd="~tns:Other">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.Other"/>
+    </bindings>
+    <bindings scd="~tns:AskedButUnknown">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.AskedButUnknown"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationAncillary">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationAncillary"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationIndirectTarget">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationIndirectTarget"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationInformationGenerator">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationInformationGenerator"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationInformationRecipient">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationInformationRecipient"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationPhysicalPerformer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationPhysicalPerformer"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationTargetDevice">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationTargetDevice"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationTargetSubject">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationTargetSubject"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationTargetLocation">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationTargetLocation"/>
+    </bindings>
+    <bindings scd="~tns:ParticipationVerifier">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.ParticipationVerifier"/>
+    </bindings>
+    <bindings scd="~tns:x_EncounterParticipant">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XEncounterParticipant"/>
+    </bindings>
+    <bindings scd="~tns:x_EncounterPerformerParticipation">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XEncounterPerformerParticipation"/>
+    </bindings>
+    <bindings scd="~tns:x_InformationRecipient">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XInformationRecipient"/>
+    </bindings>
+    <bindings scd="~tns:x_ParticipationAuthorPerformer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XParticipationAuthorPerformer"/>
+    </bindings>
+    <bindings scd="~tns:x_ParticipationEntVrf">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XParticipationEntVrf"/>
+    </bindings>
+    <bindings scd="~tns:x_ParticipationPrfEntVrf">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XParticipationPrfEntVrf"/>
+    </bindings>
+    <bindings scd="~tns:x_ParticipationVrfRespSprfWit">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XParticipationVrfRespSprfWit"/>
+    </bindings>
+    <bindings scd="~tns:x_ServiceEventPerformer">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XServiceEventPerformer"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassContact">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassContact"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassEmployee">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassEmployee"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassInvestigationSubject">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassInvestigationSubject"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassDistributedMaterial">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassDistributedMaterial"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassManufacturedProduct">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassManufacturedProduct"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassServiceDeliveryLocation">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassServiceDeliveryLocation"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassIsSpeciesEntity">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassIsSpeciesEntity"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassInactiveIngredient">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassInactiveIngredient"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassLocatedEntity">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassLocatedEntity"/>
+    </bindings>
+    <bindings scd="~tns:RoleClassSpecimen">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RoleClassSpecimen"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentEntrySubject">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentEntrySubject"/>
+    </bindings>
+    <bindings scd="~tns:x_DocumentSubject">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XDocumentSubject"/>
+    </bindings>
+    <bindings scd="~tns:x_InformationRecipientRole">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XInformationRecipientRole"/>
+    </bindings>
+    <bindings scd="~tns:x_RoleClassAccommodationRequestor">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XRoleClassAccommodationRequestor"/>
+    </bindings>
+    <bindings scd="~tns:x_RoleClassCoverage">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XRoleClassCoverage"/>
+    </bindings>
+    <bindings scd="~tns:x_RoleClassCoverageInvoice">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XRoleClassCoverageInvoice"/>
+    </bindings>
+    <bindings scd="~tns:LicensedEntityRole">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.LicensedEntityRole"/>
+    </bindings>
+    <bindings scd="~tns:x_RoleClassPayeePolicyRelationship">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.XRoleClassPayeePolicyRelationship"/>
+    </bindings>
+    <bindings scd="~tns:RelatedLinkType">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.RelatedLinkType"/>
+    </bindings>
+    <bindings scd="~tns:BinaryDataEncoding">
+      <typesafeEnumClass ref="it.gpj.cdagenerator.cda.BinaryDataEncoding"/>
+    </bindings>
+  </bindings>
+</bindings>
+

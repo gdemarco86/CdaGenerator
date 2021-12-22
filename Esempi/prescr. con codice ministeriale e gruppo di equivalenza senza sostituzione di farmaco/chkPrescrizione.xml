@@ -1,0 +1,117 @@
+
+<!--
+ <DescrizioneCaso>Si verifica il comportamento corretto del sistema in caso di EROGAZIONE prescrizione farmaceutica con codice ministeriale e gruppo di equivalenza senza sostituzione di farmaco</DescrizioneCaso>
+ -->
+<soap-env:Envelope 
+	xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"
+	>
+   <soap-env:Header>		
+	</soap-env:Header>
+   <soap-env:Body>
+       <chkPrescrizione xmlns="www.sist.puglia.it/Schemas/PDD_SIST/SCATEL/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+         
+         <datiOperatore>
+            <codStruttura></codStruttura>
+            <codiceFiscale></codiceFiscale>
+            <ruoloIstituzionale></ruoloIstituzionale>
+         </datiOperatore>
+         <datiApplicativo>
+            <applDigest></applDigest>
+            <created></created>
+            <nome></nome>
+            <nonce></nonce>
+            <produttore></produttore>
+            <versione></versione>
+         </datiApplicativo>
+         <assistito>
+            
+            <codIdentificativoAssistito></codIdentificativoAssistito>
+            
+            <codNazionaleAslResidenza>160114</codNazionaleAslResidenza>
+            
+            <codSanitarioAssFAnag/>
+            
+            <cognome></cognome>
+            
+             <dataNascita/>
+            
+            <nome>Mauro</nome>
+            
+            <nomeComuneResidenza>Bari</nomeComuneResidenza>
+            
+            <sesso>M</sesso>
+            
+            <indirizzoResidenza/>
+            
+            <numTessSasn/>
+            
+            <socNavigaz/>
+            
+            <statoEstero>22</statoEstero>
+            
+            <istituzCompetente/>
+            
+            <numIdentPers/>
+            
+            <numIdentTess/>
+            
+            <dataNascitaEstero/>
+            
+            <dataScadTessera/>
+         </assistito>
+         <tipologia>1</tipologia>
+         <dataPrescrizione></dataPrescrizione>
+         
+         <identificativoRicetta/>
+         
+         <iup/>
+         
+         <codMedicoSostituito/>
+         <codMedicoPrescrittore>146628</codMedicoPrescrittore>
+         <codEsenzione>NES00</codEsenzione>
+         
+         <annotazione/>
+         
+         <elencoPrestazioni>
+			<prestazione>
+               
+               <codGruppoEquivalenza>02D</codGruppoEquivalenza>
+               
+			   
+               <codMotivoNonSost>1</codMotivoNonSost>
+			  
+               
+               <codPrestazione>034298051</codPrestazione>
+               
+               <nota/>
+               
+               <notaCUF/>
+               <quantitaPrescritta>1</quantitaPrescritta>
+            </prestazione>           
+         </elencoPrestazioni>
+         <flagCiclica>0</flagCiclica>
+         
+         <codBranca/>
+	
+         <relazioneRicovero/>
+         
+         <richiestaRicovero/>
+         
+         <versione>4.02</versione>
+         
+         <tipoRic/>
+         
+         <oscuramDati></oscuramDati>
+         
+         <ricettaInterna/>
+         
+         <tipoVisita>A</tipoVisita>
+         
+         <dispReg>REG</dispReg>
+         
+         <indicazionePrescr/>
+         
+         <classePriorita/>
+      </chkPrescrizione>
+	 </soap-env:Body>
+</soap-env:Envelope>

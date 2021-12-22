@@ -1,0 +1,21 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+	<s:Header/>
+	<s:Body>
+		<getReportErogatoMensile xmlns="www.sist.puglia.it/Schemas/PDD_SIST/SCATEL/" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+			<datiOperatore>
+				<codStruttura>1470</codStruttura>
+				<codiceFiscale>DGNGLM43S10C983P</codiceFiscale>
+				<ruoloIstituzionale>RIS000005</ruoloIstituzionale>
+			</datiOperatore>
+			<datiApplicativo>
+				<applDigest>BXRZKZWcyHaWyifp98VbZxtbSdE=</applDigest>
+				<created>2019-07-02T11:00:38+01</created>
+				<nome>SISTEMA F PLATINUM</nome>
+				<nonce>pqPK452OFDWImlJ6M68c</nonce>
+				<produttore>CSF SISTEMI S.R.L.</produttore>
+				<versione>6.12.2</versione>
+			</datiApplicativo>
+			<annoMese>201906</annoMese>
+		</getReportErogatoMensile>
+	</s:Body>
+</s:Envelope>

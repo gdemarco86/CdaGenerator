@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+    <realmCode code="IT"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040"/>
+    <templateId root="2.16.840.1.113883.2.9.10.2.1" extension="ITPRF _PRESC_SPEC-001"/>
+    <id root="160114" extension="123456" assigningAuthorityName="Regione Puglia"/>
+    <code code="57833-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" displayName="PRESCRIZIONE SPECIALISTICA">
+        <translation code="3400" codeSystem="2.16.840.1.113883.2.9.6.1.25" codeSystemName="TCDADOC_TYPECODE" codeSystemVersion="1" displayName="Prescrizione">
+            <qualifier>
+                <value code="3400-2" codeSystem="2.16.840.1.113883.2.9.6.1.25" codeSystemName="ITCDADOC_TYPECODE" codeSystemVersion="1" displayName="PRESCRIZIONE SPECIALISTICA"/>
+            </qualifier>
+        </translation>
+        <translation code="SSN" codeSystem=".16.840.1.113883.2.9.6.1.45" codeSystemName="TCDADOC_TYPECODE" displayName="RICETTA SSN">
+            <qualifier>
+                <value code="IT" codeSystem="2.16.840.1.113883.2.9.6.1.47" codeSystemName="Tipo ricetta"/>
+            </qualifier>
+        </translation>
+    </code>
+    <effectiveTime value="20211217123043"/>
+    <confidentialityCode code="V" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
+    <languageCode code="it-IT"/>
+    <setId root="2.16.840.1.113883.2.9.2.4.3.20" extension="220120141546512580000008561737" assigningAuthorityName="MEF"/>
+    <versionNumber value="1"/>
+    <recordTarget>
+        <patientRole>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="PNCPLL86H24D851Q" assigningAuthorityName="MEF"/>
+            <id root="2.16.840.1.113883.2.9.4.1.20" extension="1234567890" assigningAuthorityName="Ministero della Salute"/>
+            <addr>
+                <country>BO</country>
+                <city>Minerbio</city>
+                <postalCode>40061</postalCode>
+                <streetAddressLine>Via bella, 5</streetAddressLine>
+            </addr>
+            <patient>
+                <name>
+                    <given>Pinco</given>
+                    <family>Pallino</family>
+                </name>
+                <birthTime value="19860624"/>
+                <birthplace>
+                    <place>
+                        <addr>
+                            <country>LE</country>
+                            <city>Tricase</city>
+                            <postalCode>73039</postalCode>
+                        </addr>
+                    </place>
+                </birthplace>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value=""/>
+        <assignedAuthor>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="MDCBLL81H10D851Q" assigningAuthorityName="MEF"/>
+            <id root="2.16.840.1.113883.2.9.2.160.4.2" extension="146628" assigningAuthorityName="REGIONE PUGLIA"/>
+            <assignedPerson>
+                <name>
+                    <given>Medico</given>
+                    <family>Bello</family>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="2.16.840.1.113883.2.9.2.160.4.11" extension="160114"/>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <legalAuthenticator>
+        <time value="20211217123043"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="MDCBLL81H10D851Q" assigningAuthorityName="MEF"/>
+            <assignedPerson>
+                <name>
+                    <given>Medico</given>
+                    <family>Bello</family>
+                </name>
+            </assignedPerson>
+        </assignedEntity>
+    </legalAuthenticator>
+    <participant typeCode="IND">
+        <associatedEntity classCode="GUAR">
+            <scopingOrganization>
+                <id root="2.16.840.1.113883.2.9.4.1.1" extension="160114" assigningAuthorityName="SSN-MIN SALUTE-500001" displayable="true"/>
+            </scopingOrganization>
+        </associatedEntity>
+    </participant>
+    <componentOf>
+        <encompassingEncounter>
+            <code code="AMB" codeSystem="2.16.840.1.113883.5.4"/>
+            <effectiveTime value="20211217123043"/>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section ID="ESENZIONI">
+                    <code code="ESENZIONI-001" codeSystem="2.16.840.1.113883.2.9.10.2.1.1" codeSystemName="ITCDA_SECTION_TYPE" codeSystemVersion="1" displayName="Esenzioni"/>
+                    <text>Esente per:
+                        <content ID="esenNaz">B02.211</content>
+                        <content ID="esenReg">R01.411</content>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="B02.211" codeSystem="2.16.840.1.113883.2.9.2.160.6.22" codeSystemName="Codifica Esenzioni" codeSystemVersion="2001">
+                                <originalText>
+                                    <reference value="esenNaz"/>
+                                </originalText>
+                            </code>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="R01.411" codeSystem="2.16.840.1.113883.2.9.2.160.6.22" codeSystemName="Codifica Esenzioni" codeSystemVersion="2001">
+                                <originalText>
+                                    <reference value="esenReg"/>
+                                </originalText>
+                            </code>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section ID="PRESCRIZIONI">
+                    <code code="57832-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" displayName="Prestazioni"/>
+                    <text>
+                        <list ID="RQO">
+                            <caption>Prestazioni richieste:</caption>
+                            <item ID="1">
+                                <content ID="pst1">Prestazione Test 1</content>
+                            </item>
+                            <item ID="2">
+                                <content ID="pst2">Prestazione Test 2</content>
+                            </item>
+                            <item ID="3">
+                                <content ID="pst3">Prestazione Test 3</content>
+                            </item>
+                        </list>
+                        <list ID="DIAG">
+                            <caption>Problemi:</caption>
+                            <item ID="1">
+                                <content ID="pbl1">Prestazione Test 1</content>
+                            </item>
+                            <item ID="2">
+                                <content ID="pbl2">Prestazione Test 2</content>
+                            </item>
+                            <item ID="3">
+                                <content ID="pbl3">Prestazione Test 3</content>
+                            </item>
+                        </list>
+                    </text>
+                    <entry typeCode="COMP">
+                        <observation classCode="OBS" moodCode="PRMS">
+                            <code code="CR001" codeSystem="2.16.840.1.113883.2.9.2.160.6.11" codeSystemName="Catalogo Prestazioni della regione Puglia" codeSystemVersion="-">
+                                <originalText>
+                                    <reference value="pst1"/>
+                                </originalText>
+                                <qualifier>
+                                    <value code="CR001" codeSystem="2.16.840.1.113883.2.9.2.160.6.12" codeSystemName="Catalogo Prestazioni della regione Puglia"/>
+                                </qualifier>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <supply classCode="SPLY" moodCode="RQO">
+                                    <independentInd value="false"/>
+                                    <quantity value="5" unit="1"/>
+                                </supply>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SAS">
+                                <encounter classCode="ENC" moodCode="EVN">
+                                    <code code="19974" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActEncounterCode"/>
+                                </encounter>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                    <entry typeCode="COMP">
+                        <observation classCode="OBS" moodCode="PRMS">
+                            <code code="CR002" codeSystem="2.16.840.1.113883.2.9.2.160.6.11" codeSystemName="Catalogo Prestazioni della regione Puglia" codeSystemVersion="-">
+                                <originalText>
+                                    <reference value="pst2"/>
+                                </originalText>
+                                <qualifier>
+                                    <value code="CR002" codeSystem="2.16.840.1.113883.2.9.2.160.6.12" codeSystemName="Catalogo Prestazioni della regione Puglia"/>
+                                </qualifier>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <supply classCode="SPLY" moodCode="RQO">
+                                    <independentInd value="false"/>
+                                    <quantity value="4" unit="1"/>
+                                </supply>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SAS">
+                                <encounter classCode="ENC" moodCode="APT">
+                                    <code code="19974" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActEncounterCode"/>
+                                </encounter>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SUBJ" inversionInd="true">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <code xsi:type="CE" code="48767-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <text>Nota test della prestazione 2</text>
+                                </act>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                    <entry typeCode="COMP">
+                        <observation classCode="OBS" moodCode="PRMS">
+                            <code code="CR003" codeSystem="2.16.840.1.113883.2.9.2.160.6.11" codeSystemName="Catalogo Prestazioni della regione Puglia" codeSystemVersion="-">
+                                <originalText>
+                                    <reference value="pst3"/>
+                                </originalText>
+                                <qualifier>
+                                    <value code="CR003" codeSystem="2.16.840.1.113883.2.9.2.160.6.12" codeSystemName="Catalogo Prestazioni della regione Puglia"/>
+                                </qualifier>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <supply classCode="SPLY" moodCode="RQO">
+                                    <independentInd value="false"/>
+                                    <quantity value="3" unit="1"/>
+                                </supply>
+                            </entryRelationship>
+                            <entryRelationship typeCode="SAS">
+                                <encounter classCode="ENC" moodCode="EVN">
+                                    <code code="19974" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActEncounterCode"/>
+                                </encounter>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section ID="PRIORITA">
+                    <entry>
+                        <procedure>
+                            <priorityCode code="P" codeSystem="2.16.840.1.113883.2.9.99" codeSystemName="Priorita' della prescrizione" codeSystemVersion="1"/>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
